@@ -1,0 +1,194 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.success {
+  background: #00ca5d;
+}
+
+.active {
+  background: #d9d9d9;
+}
+
+.failed {
+  background: #5c1dd2;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+p {
+  font-weight: 100;
+}
+
+.page-link {
+  background: #e7e7e6;
+  border-radius: 4px;
+  color: black;
+}
+
+.main .main-content {
+  height: 100vh;
+  overflow: auto;
+}
+.main .title {
+  font-weight: 500px;
+  font-size: 28px;
+}
+.main .button {
+  background: url(./images/Rectangle\ 6527.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+.main .button1 {
+  background: url(./images/Rectangle\ 6527.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  border: none;
+  font-weight: 600;
+  font-size: 100px;
+  color: white;
+}
+@media (max-width: 1024px) {
+  .main .button1 {
+    font-size: 80px;
+  }
+}
+.main .card {
+  height: 200px;
+  border-radius: 10px;
+}
+.main .card .back-text {
+  font-weight: 500;
+  font-size: 270px;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  top: -100px;
+  left: 130px;
+  overflow: hidden;
+}
+.main .card .card-description {
+  max-width: 120px;
+  font-size: 16px;
+  padding-top: 50px;
+}
+@media (max-width: 1024px) {
+  .main .card {
+    height: 180px;
+  }
+  .main .card .back-text {
+    font-weight: 500;
+    font-size: 240px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    top: -80px;
+    left: 60px;
+  }
+}
+.main table {
+  border-collapse: collapse;
+  border-spacing: 0 15px;
+}
+.main table thead tr {
+  padding-top: 5px;
+  border: 1px solid rgba(124, 124, 124, 0.5);
+  background: #e0e0e0;
+  border-radius: 6px;
+}
+.main table thead tr th {
+  font-weight: normal;
+}
+.main table tbody tr {
+  border-top: 1px solid #d9d9d9;
+  padding: 5px;
+}
+.main table tbody tr th {
+  font-weight: 300;
+}
+.main table tbody tr td {
+  font-weight: 300;
+}
+.main .table > :not(:last-child) > :last-child > * {
+  border-bottom-color: rgba(124, 124, 124, 0.5);
+}
+.main .filter {
+  padding-right: 100px;
+}
+.main .filterBtn {
+  font-weight: 300;
+  border-radius: 4.32px;
+}
+.main nav ul li {
+  padding: 5px;
+}
+.main .about {
+  height: 100vh;
+  background: #00ca5d;
+}
+.main .about .block-about-person {
+  margin-top: 50px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+.main .about .block-menu {
+  min-height: 400px;
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+.main .about .block-menu ul li {
+  border: 1px solid #e7e7e6;
+  border-radius: 6px;
+  box-shadow: none;
+}
+.main .about .block-menu .menu-list {
+  height: 200px;
+  overflow: auto;
+}
+.main .about .block-menu .price {
+  padding-top: 50px;
+}
+.main .about .btnСancel {
+  margin-top: 50px;
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 50px;
+  padding: 20px 40px;
+  color: #616161;
+}
+
+.main-walpaper {
+  background: url(./images/30116760_7627931\ 1.png) no-repeat center;
+  width: 100%;
+  height: 100vh;
+}
+.main-walpaper .walpaper {
+  height: 100vh;
+}
+.main-walpaper .splash-screen {
+  box-shadow: 0px 0px 90px -6px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  border-radius: 10px;
+}
+.main-walpaper .splash-screen .screen-title {
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */

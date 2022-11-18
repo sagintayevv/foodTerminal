@@ -1,0 +1,143 @@
+.main {
+  .main-content {
+    height: 100vh;
+    overflow: auto;
+  }
+  .title {
+    font-weight: 500px;
+    font-size: 28px;
+  }
+  .button {
+    background: url(./images/Rectangle\ 6527.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .button1 {
+    background: url(./images/Rectangle\ 6527.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border: none;
+    font-weight: 600;
+    font-size: 100px;
+    color: white;
+    @media (max-width: 1024px) {
+      font-size: 80px;
+    }
+  }
+  .card {
+    height: 200px;
+    border-radius: 10px;
+
+    .back-text {
+      font-weight: 500;
+      font-size: 270px;
+      position: absolute;
+      color: rgba(255, 255, 255, 0.5);
+      top: -100px;
+      left: 130px;
+      overflow: hidden;
+    }
+
+    .card-description {
+      max-width: 120px;
+      font-size: 16px;
+      padding-top: 50px;
+    }
+
+    @media (max-width: 1024px) {
+      height: 180px;
+      .back-text {
+        font-weight: 500;
+        font-size: 240px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.5);
+        top: -80px;
+        left: 60px;
+      }
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0 15px;
+    thead {
+      tr {
+        padding-top: 5px;
+        border: 1px solid rgba(124, 124, 124, 0.5);
+        background: #e0e0e0;
+        border-radius: 6px;
+
+        th {
+          font-weight: normal;
+        }
+      }
+    }
+    tbody {
+      tr {
+        border-top: 1px solid #d9d9d9;
+        padding: 5px;
+        th {
+          font-weight: 300;
+        }
+        td {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .table > :not(:last-child) > :last-child > * {
+    border-bottom-color: rgba(124, 124, 124, 0.5);
+  }
+  .filter {
+    padding-right: 100px;
+  }
+  .filterBtn {
+    font-weight: 300;
+    border-radius: 4.32px;
+  }
+  nav ul li {
+    padding: 5px;
+  }
+  .about {
+    height: 100vh;
+    background: #00ca5d;
+    .block-about-person {
+      margin-top: 50px;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px 40px;
+    }
+    .block-menu {
+      min-height: 400px;
+      margin-top: 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px 40px;
+
+      ul {
+        li {
+          border: 1px solid #e7e7e6;
+          border-radius: 6px;
+          box-shadow: none;
+        }
+      }
+      .menu-list {
+        height: 200px;
+        overflow: auto;
+      }
+      .price {
+        padding-top: 50px;
+      }
+    }
+    .btnСancel {
+      margin-top: 50px;
+      background: #ffffff;
+      border: none;
+      border-radius: 10px;
+      font-size: 50px;
+      padding: 20px 40px;
+      color: #616161;
+    }
+  }
+}
